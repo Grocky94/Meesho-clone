@@ -156,6 +156,11 @@ nav {
     align-items: center;
     justify-content: center;
 }
+#low-price-image-parent{
+    height:80vh;
+    width: 80%;
+    border:1px solid black;
+}
 
 #product-header {
     height: 10vh;
@@ -197,7 +202,8 @@ nav {
     color: #9999ae;
     margin-top: 5px;
 }
-#sort>p{
+
+#sort>p {
     margin-left: 5%;
 }
 
@@ -213,40 +219,45 @@ nav {
     outline: none;
 }
 
-#filter-div{
+#filter-div {
     /* height: 50vh; */
-    width:95%;
-    border:1px solid black;
+    width: 95%;
+    border: 1px solid black;
     border-radius: 2px;
     margin: auto;
-    margin-top:5% ;
+    margin-top: 5%;
 }
-.inner-filter-div{
-    height:8vh;
+
+.inner-filter-div {
+    height: 8vh;
     width: 85%;
     margin: auto;
-    border-bottom:1px solid #9999ae;
-    display: flex; 
+    border-bottom: 1px solid #9999ae;
+    display: flex;
     align-items: center;
 }
-.inner-filter-div>select{
+
+.inner-filter-div>select {
     margin-left: auto;
     margin-right: 0%;
     border: none;
     outline: none;
 }
 
-#filter-div>div:nth-child(1){
+#filter-div>div:nth-child(1) {
     display: block;
 }
-#filter-div>div:nth-child(1)>p{
+
+#filter-div>div:nth-child(1)>p {
     margin-top: 4%;
     font-size: 0.9em;
     letter-spacing: 1px;
 }
-#filter-div>div:nth-child(1)>p:nth-child(2){
+
+#filter-div>div:nth-child(1)>p:nth-child(2) {
     color: #9999ae;
 }
+
 #right-side-product-screen {
     /* height: 100vh; */
     width: 75%;
@@ -255,10 +266,11 @@ nav {
     flex-flow: row wrap;
 
 }
-.product-div{
+
+.product-div {
     height: 50vh;
-    width:23%;
-    border:1px solid black;
+    width: 23%;
+    border: 1px solid black;
     border-radius: 5px;
     overflow: hidden;
     padding-left: 1%;
@@ -267,73 +279,219 @@ nav {
     margin-top: 1%;
     margin-left: 1.5%;
 }
-.product-image{
-    height:30vh;
-    width:100%;
+
+.product-image {
+    height: 30vh;
+    width: 100%;
     margin: auto;
-    border:1px solid black;
+    border: 1px solid black;
 }
-.product-div>p:nth-child(2){
+
+.product-div>p:nth-child(2) {
     font-size: 1.0em;
     color: #9999ae;
-    
+
 }
-.product-div>p:nth-child(3)>del{
+
+.product-div>p:nth-child(3)>del {
     margin-right: 5%;
     margin-left: 5%;
     color: #9999ae;
     text-decoration: line-through;
 }
-.product-div>p:nth-child(3)>span:nth-child(3){
+
+.product-div>p:nth-child(3)>span:nth-child(3) {
     color: #23bb75;
 }
-.delivery-div-inside-product{
-    height:3vh;
-    width:50%;
+
+.delivery-div-inside-product {
+    height: 3vh;
+    width: 50%;
     border: 1px solid black;
-    background-color: rgb(233, 228, 228) ;
+    background-color: rgb(233, 228, 228);
     color: #9999ae;
     border-radius: 50px;
     display: flex;
     align-items: center;
-   padding-left: 5px;
-   font-size: 0.8em;
+    padding-left: 5px;
+    font-size: 0.8em;
 }
-.rating-inside-product{
+
+.rating-inside-product {
     display: flex;
 }
-.rating-inside-product>span:nth-child(1){
-    height:4vh;
-    width:25%;
+
+.rating-inside-product>span:nth-child(1) {
+    height: 4vh;
+    width: 25%;
     border: 1px solid black;
     border-radius: 50px;
     display: flex;
     align-items: center;
-   padding-left: 5px;
-   font-size: 1em;
-   display: flex;
-   align-items: center;
-   margin-top: 4%;
-   background-color: #23bb75;
-   color: white;
+    padding-left: 5px;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    margin-top: 4%;
+    background-color: #23bb75;
+    color: white;
 }
-.rating-inside-product>span:nth-child(2){
+
+.rating-inside-product>span:nth-child(2) {
     margin: 5px;
     color: #9999ae;
     font-size: 0.8em;
 }
-.rating-inside-product>span:nth-child(1),i{
+
+.rating-inside-product>span:nth-child(1),
+i {
     margin-left: 2px;
     font-size: 0.9em;
 }
-footer{
-    height:50vh;
+
+footer {
+    height: 50vh;
     width: 100%;
-    border:1px solid black;
+    border: 1px solid black;
 }
-#footer-inner-div{
+
+#footer-inner-div {
     height: 100%;
     width: 90%;
-    border:1px solid black;
+    border: 1px solid black;
     margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+#shop-non-stop {
+    height: 85%;
+    width: 35%;
+    border: 1px solid black;
+}
+
+#shop-non-stop>div:nth-child(1) {
+    height: 8vh;
+    width: 100%;
+    border: 1px solid black;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+#shop-non-stop>div:nth-child(2) {
+    height: 10vh;
+    width: 100%;
+    border: 1px solid black;
+    font-size: 1.1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#shop-non-stop>div:nth-child(3) {
+    height: 7vh;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#shop-non-stop>div:nth-child(3)>div {
+    height: 100%;
+    width: 48%;
+}
+
+#shop-non-stop>div:nth-child(3)>div>img {
+    height: 100%;
+    width: 100%;
+}
+
+#careers-seller-hall,
+#legal-blog-return {
+    height: 85%;
+    width: 15%;
+    border: 1px solid black;
+
+}
+
+#careers-seller-hall>ul,
+#legal-blog-return>ul {
+    list-style-type: none;
+    font-size: 1.1em;
+    color: #616587;
+    line-height: 40px;
+    margin-left: 1%;
+}
+
+#reach-out {
+    height: 85%;
+    width: 17%;
+    border: 1px solid black;
+}
+
+#reach-out>div {
+    height: 7vh;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+
+}
+
+#reach-out>div:nth-child(1)>p {
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+#reach-out>div:nth-child(2)>i {
+    font-size: 1.2em;
+    margin-left: 5%;
+}
+
+.fa-facebook {
+    color: blue;
+}
+
+.fa-square-instagram {
+    color: #f75f48;
+}
+
+.fa-youtube {
+    color: #ff0101;
+}
+
+.fa-linkedin {
+    color: #2867b2;
+}
+
+.fa-twitter {
+    color: #1d9bf0;
+}
+
+#contact-us {
+    height: 85%;
+    width: 18%;
+    border: 1px solid black;
+}
+
+#contact-us>div:nth-child(1) {
+    height: 6vh;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+#contact-us>div:nth-child(1)>p {
+    font-size: 1.3em;
+    font-weight: 500;
+}
+#contact-us>div:nth-child(2) {
+    height: 30vh;
+    width: 100%;
+    border: 1px solid black;
+    font-size: 0.8em;
+    color: rgb(97, 97, 115);
+    line-height: 25px;
 }
