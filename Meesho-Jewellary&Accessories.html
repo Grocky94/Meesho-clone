@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8624324425.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meesho-Jewellary & Accessories</title>
+    <link rel="stylesheet" href="style-Jewellary&Accessories.css">
+    </link>
+</head>
+
+<body>
+    <nav>
+        <div id="inner-nav">
+            <div id="logo">
+                <a href="Meesho-home.html"><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQMAAADCCAMAAAB6zFdcAAAAhFBMVEX////0M5f0LZXzGpD0K5T0IpLzFY/2Z63/+fz94e73cLL//f78z+T2Xqr2U6X+9fr+7PX7yeD1QZ3+8Pf4ib74k8P95vH92+v7vNn81Of2Za395PD3bbD1SqD6ttb7w933f7n5nsn5n8n6qs/6sdP3d7X5qM74jsD5lsT7wNz3g7v1Rp49TafXAAAHXklEQVR4nO2a2WKzLBCGAwjZF81i9n1t7//+fhXQATVt2n5/Tt7nqOII4ysMw6SNBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/ZzhrvduFdzORKji824n3MhGMMXV6txvvpJtKwPjnu/14J2PFMrrvduSNQINGYwYNoEHDasCjd/vxTqABNEhpC2hgNNi82493Ag2gQcrbNRgtwnAxpi3jeBGP68wTWuPh8y6fG3SHQy8ZirUGg+xi2I4Xs+f9/y2zKVNCSqGi+8j485G0CKH4vlf1QDgZSJXAOqdqRxMDkRpElQbDc4dljy/vvUKIQoPFXo8umvNqh4dx+Nj1/rLgchOS6zSVS3FPGsZNFegGFqhB27c/MxEUD6xL9xun3IAnBp2Vd3sqZZA/ziZWJKNBf9zPR+eC7Uq9z+4bmXwxKQRfnv9GhnEkGUFuWqEISANXZ8d+tBGcPhAor/Qze24wc8dLbp+pBizi9GmuPrzeO0rmBuk3+4PjxYg5DqdJSuA2MHUk9rH07BkTHdrhosLgUtweB6Xbakw18JF72vtVeN5JVrlaX6EblVwqo4pluVIV9tTNtnhuMPAVTu4+tHjVGtDRG52yDf919W1iJiaX+SJlRYt9HWk3iFwyLlUSQ+37qm2uKXMMpG+wMwfkIFnO0kwJtfA1CNK+8yBVZM9Lu4x4IGU+oZx5+jr2zC6jw2N+Z0QFsTmcj33jVrD3JBPLMIlGw579LqLlGzQzg3BtezD75Fo7Li+7OJ7fPtOZLfVuWGjA5SRcjdqPvu3LzvaLaZCyPzke9hu7LlTN9vE9prpXccuuupc8XAn94XqmQelXsOWu4rvPtePShL2RcB4nBuZb6atgau7Ge6X2LVcDHtmdwngn7/pya0efmmnZ7pgWMfqFBnpqB3nsXRtlhd2S2saNrSMZ0X1rPNdXN2PwKAzOuolnF0ZEsajwxWqgioxik7nHl9nF0HTE49LoQfPnEhiXZJ7QzXSfZtSUe6ZKMMkujGTOPjDg5K3YFwZmngSXRple+Z7Wz5TbD0ZfJx8xIqi48VO09JyoqB2WxYc2mUsmis7omXBSv1AWcz1WFQY7YtCw8WcTlpwxGkiSFZntkmc5gJ6i0tsFLvob7V9/eWdY2kGTftWUEcnit2Y2rpsZnYw1+fTWoEkNmnRuDGywF+zmbexGA0EOKXaephFj4Sy6nJUgS+3fatBP/57aFNdBN22+MtDR/0w2QCH3YckZp67cEoUG10zfPJrm6Jghyhn7bzUolhfV4FLOb3KyD7GvN7C7/IamUIFgx5brjNHK0SBIZfnI+palNXTT7Q+//R9p0HmSU4ri6Rr09x0zVycp7TaqA4seydUgiwdr3zPDSYebs9/+ogaTomXpjzQjGqztYbACqkHV/cAu5OHSS7fV3tGAbnN0Hixr5ryOQfL6dxr0azTI9gW9Fvhg3Vwn9DMGGRsd5/VESQxSmhUG+mUHwjlXiSnVYE38G6pCgy/mwY8PDXrYb2sw0fvQvbY/bSC/zN/b9w05AZvd/QsNdN+idErUcVj+OF2u1aCYcVQDHZpJAuVzLU/nOkbnZn4m0wGpXoMslJxomkEY1MyP7/KiBmb3Un7xJk8ze2QvqzRwW895qSK93D3XIK4uuY5rhvw2L2pgMnYv/ly53JgZavdz1+CYpIVVB4R8OKbSvx9aA5pnUw0aJlX2FoPeGh3lXiMs5R0lDVY0ne6YfJUe0+4qrWOYqWgNxnUGjeGOvoT+9lQD5yjh/FvGXWsUOcUzkz2qcur9XcoaDHwN9BnBZLo97ROPine8Kuq5WQz8s5j9V92BOZpuhVBRfrC25yBeo8GIamBmfdAnIrS15r/5UWL3ogZ27nJuwvB4b17ahsE6A9NBVrPhkt96qUjDk3l6TZyp1aBx1IIFkf3o3atwKlH/jwYrm+5Ldjle70tbf8trzyuVG+wrDK6mJpOcFaLPSNpCUTYx5nUa5MU0U4vk4nM6D8PzB7PPlw4Rf6ABKWO4GuS1nLTmR+qNRUiqMTBvdiZ19byGbt5x+6UGLbuPpOXEov4pq6oR/1ADs/5dJI3KxwoDYQ3GVWVp1aMa7Os1aAy93yZ057+SoBFmY9CtTK9nVcQ8PbmJZ3O/ws/Vzem0wqAQOY782ju3FdGdVpt2pvcF8m+b3YsvYiB+fFIwpIc4Tt64cU5HlTQTzOpnihR3RmtFficJxKcfkEbNZwZzJ03mIrK7Zit7yK2K9VM5BU3Od4yIyAO1/PUvs6OBUpHj4lQJ1ad53YoJqdyg075FIv3FT0rFOlU7MzW4lAziw0DquyJYE3HbkRJy65iOE8FUx338sQ7001JFkx+XTigj/xfRUej12w3nZa1Hvfn5tA1Xtb/2ZQbzcFZtMIx329N2F3sZbtwrpby9efkk0FrMr4fDOfxff5wHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf8t/GL9ivjCOGQUAAAAASUVORK5CYII=" /></a>
+            </div>
+            <div id="search">
+                <div id="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input placeholder="Try Saree,Kurti or Search by Product Code" />
+                </div>
+            </div>
+            <div id="nav-right-side">
+                <div id="download">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <span>Download App</span>
+                </div>
+                <div id="supplier">
+                    <span>Become a Supplier</span>
+                </div>
+                <div id="profile-cart">
+                    <span>
+                        <a href="meesho-login.html"><i class="fa-regular fa-user"></i>
+                            <span>Profile</span></a>
+                    </span>
+                    <span>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span>Cart</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="second-nav">
+        <div id="inner-second-nav">
+            <div class="second-nav-list"><a href="meesho-women-ethenic.html">Women Ethnic</a></div>
+            <div class="second-nav-list"><a href="meesho-women-western.html">Women Western</a></div>
+            <div class="second-nav-list"><a href="meesho-MenTopWear.html">Men</a></div>
+            <div class="second-nav-list"><a href="meesho-kids.html">Kids</a></div>
+            <div class="second-nav-list"><a href="Meesho-Home&Kitchen.html">Home & Kitchen</a></div>
+            <div class="second-nav-list"><a href="Meesho-Beauty&Health.html">Beauty & Health</a></div>
+            <div class="second-nav-list">Jewellery & Accessories</div>
+            <div class="second-nav-list"><a href="Meesho-Bags&Footwears.html">Bags & Footwear</a></div>
+            <div class="second-nav-list">Electronics</div>
+        </div>
+    </div>
+    <div id="product-header">
+        <p>Bangles</p>
+        <p>showing 1-12 products</p>
+    </div>
+    <div id="product-screen">
+        <div id="left-side-product-screen">
+            <div id="sort">
+                <p>Sort by:<span>Relevance</span></p><select></select>
+            </div>
+            <div id="filter-div">
+                <div class="inner-filter-div">
+                    <p>FILTERS</p>
+                    <p>1000+ products</p>
+                </div>
+                <div class="inner-filter-div no-border">
+                    <p>Category</p>
+                    <select></select>
+                </div>
+                <div id="categories-input-list">
+                    <input type="checkbox" /><label>Bangles & Bracelets</label></br>
+                </div>
+                <div class="inner-filter-div no-border">
+                    <p>Gender</p>
+                    <select></select>
+                </div>
+                <div id="categories-input-list">
+                    <input type="button" value="Women" /></br>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Fabric</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Color</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Price</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Discount</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Rating</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Size</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Combo</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Material</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Compatible Models</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Warranty Period</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Dial Design</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Type</p>
+                    <select></select>
+                </div>
+            </div>
+        </div>
+        <div id="right-side-product-screen">
+            <!-- product one  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/137931518/kt74c_400.webp" />
+                </div>
+                <p>Twinkling Fancy Bracelet</p>
+                <p><b>&#8377 161</b> onwards</p>
+                <div class="delivery-div-inside-product">Free Delivery </div>
+                <div class="rating-inside-product">
+                    <span>3.8 <i class="fa-solid fa-star"></i></span><span>1027 Reviews</span>
+                </div>
+            </div>
+            <!-- second product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/150265388/085yv_400.webp" />
+                </div>
+                <p>Twinkling Fusion Bracele..</p>
+                <p><b>&#8377 242</b> onwards</p>
+                <div class="delivery-div-inside-product">Free Delivery</div>
+                <div class="rating-inside-product">
+                    <span>4.1 <i class="fa-solid fa-star"></i></span><span>6474 Reviews</span>
+                </div>
+            </div>
+            <!-- third product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/282302483/fztjd_400.webp" />
+                </div>
+                <p>Princess Graceful Bracel...</p>
+                <p><b>&#8377 180</b> onwards</p>
+                <div class="delivery-div-inside-product">Free Delivery</div>
+                <div class="rating-inside-product">
+                    <span>3.9 <i class="fa-solid fa-star"></i></span><span>483 Reviews</span>
+                </div>
+            </div>
+            <!-- fourth product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/181885457/wnkzz_400.webp" />
+                </div>
+                <p>Twinkling Chunky Bracel...</p>
+                <p><b>&#8377 223</b> onwards</p>
+                <div class="delivery-div-inside-product">Free Delivery</div>
+                <div class="rating-inside-product">
+                    <span>4.0 <i class="fa-solid fa-star"></i></span><span>1985 Reviews</span>
+                </div>
+            </div>
+            <!-- fifth product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/34119833/srkdn_400.webp" />
+                </div>
+                <p>Princess Graceful Bracel</p>
+                <p><b>&#8377 166</b> onwards</p>
+                <div class="delivery-div-inside-product">Delivery &#8377 68</div>
+                <div class="rating-inside-product">
+                    <span>4.0 <i class="fa-solid fa-star"></i></span><span>23693 Reviews</span>
+                </div>
+            </div>
+            <!-- sixth product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/75946655/rmtip_400.webp" />
+                </div>
+                <p>Shimmering Glittering B...</p>
+                <p><b>&#8377 192</b> onwards</p>
+                <div class="delivery-div-inside-product">Delivery &#8377 66</div>
+                <div class="rating-inside-product">
+                    <span>4.2 <i class="fa-solid fa-star"></i></span><span>7586 Reviews</span>
+                </div>
+            </div>
+            <!-- seventh product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/212894974/t6n7n_400.webp" />
+                </div>
+                <p>Princess Beautiful Brace...</p>
+                <p><b>&#8377 182</b> onwards</p>
+                <div class="delivery-div-inside-product">Free Delivery</div>
+                <div class="rating-inside-product">
+                    <span>3.7 <i class="fa-solid fa-star"></i></span><span>1160 Reviews</span>
+                </div>
+            </div>
+            <!-- Eight product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/220688968/5tnft_400.webp" />
+                </div>
+                <p>Shimmering Chunky Bra...</p>
+                <p><b>&#8377 240</b> onwards</p>
+                <div class="delivery-div-inside-product">Free Delivery</div>
+                <div class="rating-inside-product">
+                    <span>3.9 <i class="fa-solid fa-star"></i></span><span>8 Reviews</span>
+                </div>
+            </div>
+            <!-- nineth product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/99178540/kmncd_400.webp" />
+                </div>
+                <p>Twinkling Colorful Brace...</p>
+                <p><b>&#8377 167</b> onwards</p>
+                <div class="delivery-div-inside-product">Free Delivery</div>
+                <div class="rating-inside-product">
+                    <span>4.0 <i class="fa-solid fa-star"></i></span><span>2186 Reviews</span>
+                </div>
+            </div>
+            <!-- tenth product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/263609978/7nvcu_400.webp" />
+                </div>
+                <p>Princess Beautiful Brace..</p>
+                <p><b>&#8377 249</b><del>&#8377 172</del> <span>9% off</span></p>
+                <div class="delivery-div-inside-product">Free Delivery</div>
+                <div class="rating-inside-product">
+                    <span>3.9 <i class="fa-solid fa-star"></i></span><span>1200 Reviews</span>
+                </div>
+            </div>
+            <!-- eleventh product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/75659719/0xpev_400.webp" />
+                </div>
+                <p>Twinkling Unique Bracel...</p>
+                <p><b>&#8377 192</b> onwards</p>
+                <div class="delivery-div-inside-product">Free Delivery</div>
+                <div class="rating-inside-product">
+                    <span>4.0 <i class="fa-solid fa-star"></i></span><span>2337 Reviews</span>
+                </div>
+            </div>
+            <!-- tweleveth product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/29961381/7bxa5_400.webp" />
+                </div>
+                <p>Twinkling Elegant Bracel..</p>
+                <p><b>&#8377 196</b> onwards</p>
+                <div class="delivery-div-inside-product">Delivery &#8377 66</div>
+                <div class="rating-inside-product">
+                    <span>4.2 <i class="fa-solid fa-star"></i></span><span>568 Reviews</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="more-about">
+        <div id="more-about-heading">
+            <p>More About Bangles</p><select></select>
+        </div>
+        <div id="more-about-discreption">
+            <p>Adding colorful bangles to your accessory collection is a must for every fashion-forward woman! Bangles
+                add that much-needed touch of glamour to any ethnic outfit. Even a pair of simple bangles can upgrade
+                your look from boring to breathtaking instantly. You don’t have to spend a fortune to create a lovely
+                collection of bangles for yourself. Explore our huge collection of designer bangles in alluring designs
+                and patterns, online, and keep up with the latest trends. Mix and match your bangles with your outfits
+                and accessories to create your own style statement!</p>
+            </br>
+            <p><span>The Timeless Appeal Of Indian Bangles</span></br>
+                We know that bangles have been an integral part of Indian culture since ancient times. In fact,
+                traditionally, bangles were worn by both men and women even though the designs and material varied.
+                Considered to be the symbol of fertility, bangles hold a special significance for married women. While
+                Indian bagels share some similarities with Western bracelets, they have some unique features which set
+                them apart from other wrist ornaments. Bangles have a rigid form and do not have the flexible ‘chain’
+                structure usually found in bracelets. They may or may not have closure and are traditionally circular in
+                shape.</br>
+                <span>Must-Have Classic Bangle Designs And Style Tips</span><br>
+                <span>Glass Bangles</span><br>
+                The charming sight of colorful glass bangles displayed in the street side shops is one that we have
+                etched in our minds since childhood. The most stunning and popular variation of bangles in India, glass
+                bangles come in a variety of designs and colors. Women often choose to wear colored glass bangle sets to
+                match with their sarees. However, the only disadvantage of wearing glass bangles is that they are
+                brittle, hence might break easily. This is why acrylic bangles have taken over and are often preferred
+                by traditional glass bangles. Firozabad glass bangles are adored by women all over the globe.</br>
+                <span>Metal Bangles</span><br>
+                Metallic bangles sometimes come with a simple clasp closure Apart from these unadorned bangles, one can
+                also find a lot of glass bangle designs that incorporate bulky decorations. This includes stones, gems,
+                pearls, beads, or even bells as well as gold or silver. If your Lehenga or skirt is a bit traditional
+                try to go for Gold or Lac Bangles.
+                </br>
+                <span>Choodas</span></br>
+                The traditional Chooda has a special significance in Pubjabi culture. During Punjabi weddings, the
+                bride’s maternal relatives gift gold Choodas to her on the day of the wedding. However, these days,
+                Choodas are available in a variety of colors and bright tones like red , pink and green are bridal
+                favorites. Colorful designs give a refreshing twist to the traditional everyday bangles. They often come
+                with intricate details and elaborate patterns.<br>
+                <span>Outfit Combinations For Traditional Bangles</span><br>
+                When opting for traditional designs in bangles, it’s best to pair them with ethnic wear outfits like
+                Sarees or suits. You can get a few colorful bangle sets and match them with the primary color of your
+                outfit. For glass bangles, wearing assorted colors on one hand is the current trend. When it comes to
+                metal bangles, you can try out different looks. Wear just one pair of statement bangles in silver or
+                gold with your formal suit or Kurti and pair them with matching earrings. For weddings, You can pair a
+                set of glass bangles matching the color of your Lehenga or saree with a pair of metallic bracelet style
+                bangles for the perfect look. For Western outfits, traditional bangles may not be the best choice.<br>
+                Try to find modern designer bangles from the list below to ace your fusion look.<br>
+                <span>Latest Contemporary Bangle Designs And Style Tips</span><br>
+                <span>Thread Bangles</span><br>
+                While classic bangles made of gold, silver and glass are still in fashion,modern jewelry tends to be
+                lightweight compared to traditional designs. Thread bangles have emerged as one of the most popular
+                contemporary styles.They are usually made of silk threads wrung around a rigid inner structure.The best
+                part is that you can get them in different colors at affordable prices. Ball Chains are hanging that
+                enhance the beauty of these artificial bangles. These look charming and make your traditional attire
+                look attractive.<br>
+                <span>Kadas</span><br>
+                Some women prefer to wear just one chunky bangle instead of a complete set. This gives of a much more
+                casual vibe and is easy to carry. Throughout history, Kadas were worn by both men and women in India for
+                religious reasons. However, modern Kadas have more elaborate designs and may also have bracelet style
+                closures. A classy Kada can add oomph to an otherwise boring outfit without attracting too much
+                attention. You will find different designs from Meenakari Kadas to Meenakari kadas to wooden ones. Wear
+                one on each wrist to add some regal charm to your casual or formal outfit.<br>
+                <span>Sterling Silver Bangles</span><br>
+                Much loved for its quality and durability, sterling silver is quite widely used in modern jewelry. In
+                fact, sterling jewelry has given a tough competition to pure silver and gold. You can buy plain or
+                designer bangles to add to your collection. In fact you can combine plain sterling silver bangles with a
+                couple of oxidized ones to create a charming vintage look. These bangles are easy to clean and store and
+                retain their shine for a long time. Cuff bangles made of sterling silver are extremely popular among
+                working women and college girls.<br>
+                <span>Oxidized Bangles</span> <br>
+                The vintage look is all the rage these days. This is the reason why oxidized jewelry is trending
+                everywhere. When it comes to ethnic wear, oxidized bangles and other pieces not only complement every
+                outfit but also give a fashionable look without going overboard. Indian jewelry designers have come up
+                with unique, fusion designs in oxidized bangles that are available at reasonable prices in the
+                market.Jewelry designers have now been focusing on different patterns to make use of this metal. <br>
+                <span>Best Ways To Style Contemporary Bangles</span><br>
+                Best Ways To Style Contemporary Bangles
+                Whenever you want to style your outfit with bangles in the right way, you should keep certain points in
+                mind. Styling your outfit and accessories well will go a long way into achieving that sophisticated
+                look.<br>
+                If you are going for a casual ethnic look,bangles with embellishments are the best choice. For office or
+                college wear outfits, weaning a bunch of bangles might not be appropriate. Go for a single Kada and a
+                matching pair of earrings to wear with your Kurti or suit.<br>
+                It's very important to match your bangles with your outfit as it will define your overall look. If your
+                outfit primarily consists of neutral hues, you can opt for contrasting, colorful silk thread bangles.
+                Popular Indo Western outfits like the evergreen ethnic skirt and crop top call for something classy and
+                elegant yet understated.Pearl or thread bangles can enhance this look perfectly.You can add a pair of
+                earrings to complete your look.<br>
+                Pair your simple Kurta with a pair of oxidized jhumkas and a cuff bangle and you will be surprised at
+                how elegant this minimalistic look can be. Cuffs look amazing with maxi dresses and tunics as well.<br>
+                <span>Buy The Latest Bangles Online At The Best Prices</span><br>
+                Now that you have checked out the latest bangle trends, you might be wondering where to get them online.
+                Meesho offers an amazing collection of designer bangles in the best quality and at the best prices. It
+                will help you to buy the trends while staying within your budget. From amazing embellished designs to
+                beautiful plain bangles you can choose your favorites from our huge selection. In fact you can also
+                resell bangles to your social media network and start your own business with Meesho. So, start right now
+                and give your jewelry box a makeover this season!<br>
+            </p>
+        </div>
+    </div>
+    <footer>
+        <div id="footer-inner-div">
+            <div id="shop-non-stop">
+                <div>
+                    <p>Shop Non-Stop on Meesho</p>
+                </div>
+                <div>
+                    <p>Trusted more than 1 crore Indians</p>
+                    <p><span>Cash on Delevery</span> | <span>Free Delivery</span></p>
+                </div>
+                <div>
+                    <div><img src="https://images.meesho.com/images/pow/playstore-icon-big_400.webp" /></div>
+                    <div><img src="https://images.meesho.com/images/pow/appstore-icon-big_400.webp" /></div>
+                </div>
+            </div>
+            <div id="careers-seller-hall">
+                <ul>
+                    <li>Careers</li>
+                    <li>Become a supplier</li>
+                    <li>Hall of fame</li>
+                </ul>
+            </div>
+            <div id="legal-blog-return">
+                <ul>
+                    <li>Legal and Policies</li>
+                    <li>Meesho Tech Blog</li>
+                    <li>Notice and Returns</li>
+                </ul>
+            </div>
+            <div id="reach-out">
+                <div>
+                    <p>Reach out to us</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+            <div id="contact-us">
+                <div>
+                    <p>Contact us</p>
+                </div>
+                <div>
+                    <p>
+                        Fashnear Technologies Private Limited,<br />
+                        CIN: U74900KA2015PTC082263 <br />
+                        06-105-B, 06-102, (138 Wu) Vaishnavi Signature, No. 78/9, Outer Ring Road, Bellandur, Varthur
+                        Hobli, Bengaluru-560103, Karnataka, India <br />
+                        E-mail address: query@meesho.com <br />
+                        © 2015-2022 Meesho.com
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>

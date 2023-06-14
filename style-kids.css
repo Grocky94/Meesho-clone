@@ -316,7 +316,7 @@ nav {
 }
 
 .product-div {
-    height: 65vh;
+    height: 50vh;
     width: 23%;
     border: 1px solid #9999ae;
     border-radius: 5px;
@@ -329,10 +329,10 @@ nav {
 }
 
 .product-image {
-    height: 45vh;
+    height: 30vh;
     width: 100%;
     margin: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .product-image>img {
