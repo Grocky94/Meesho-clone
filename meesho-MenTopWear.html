@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8624324425.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meesho-Men Top Wear</title>
+    <link rel="stylesheet" href="style-MenTopWear.css">
+    </link>
+</head>
+
+<body>
+    <nav>
+        <div id="inner-nav">
+            <div id="logo">
+                <img
+                    src="data:image/png;base64,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" />
+            </div>
+            <div id="search">
+                <div id="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input placeholder="Try Saree,Kurti or Search by Product Code" />
+                </div>
+            </div>
+            <div id="nav-right-side">
+                <div id="download">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <span>Download App</span>
+                </div>
+                <div id="supplier">
+                    <span>Become a Supplier</span>
+                </div>
+                <div id="profile-cart">
+                    <span>
+                        <a href="meesho-login.html"><i class="fa-regular fa-user"></i>
+                            <span>Profile</span></a>
+                    </span>
+                    <span>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span>Cart</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="second-nav">
+        <div id="inner-second-nav">
+            <div class="second-nav-list">Women Ethnic</div>
+            <div class="second-nav-list">Women Western</div>
+            <div class="second-nav-list">Men</div>
+            <div class="second-nav-list">Kids</div>
+            <div class="second-nav-list">Home & Kitchen</div>
+            <div class="second-nav-list">Beauty & Health</div>
+            <div class="second-nav-list">Jewellery & Accessories</div>
+            <div class="second-nav-list">Bags & Footwear</div>
+            <div class="second-nav-list">Electronics</div>
+        </div>
+    </div>
+    <div id="product-header">
+        <p>Men Top Wears</p>
+        <p>showing 1-12 products</p>
+    </div>
+    <div id="product-screen">
+        <div id="left-side-product-screen">
+            <div id="sort">
+                <p>Sort by:<span>Relevance</span></p><select></select>
+            </div>
+            <div id="filter-div">
+                <div class="inner-filter-div">
+                    <p>FILTERS</p>
+                    <p>1000+ products</p>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Category</p>
+                    <select></select>
+                </div>
+                <div id="categories-input-list">
+                    <input type="checkbox"/><label>Shirt</label></br>
+                    <input type="checkbox"/><label>T-shirts</label></br>
+                    <input type="checkbox"/><label>Top and bottom Fabric</label></br>
+                    <input type="checkbox"/><label>Tops and Bottom sets</label></br>
+                    <input type="checkbox"/><label>Track Suit and Pants</label></br>
+                    <input type="checkbox"/><label>Vests</label></br>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Gender</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Fabric</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Oxfords</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Dail_shape</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Color</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Price</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Meesho Mall</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Occassion</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>combo of</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Kurta_fabric</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Dupatta Color</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Discount</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Rating</p>
+                    <select></select>
+                </div>
+            </div>
+        </div>
+        <div id="right-side-product-screen">
+            <!-- product one  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/221377487/j93gj_400.webp" />
+                </div>
+                <p>Classy Fabulous Men Sh..</p>
+                <p><b>&#8377 306</b> onwards</p>
+                <div class="delivery-div-inside-product">Free Delivery </div>
+                <div class="rating-inside-product">
+                    <span>3.5 <i class="fa-solid fa-star"></i></span><span>60 Reviews</span>
+                </div>
+            </div>
+            <!-- second product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/243655945/fi5wd_400.webp" />
+                </div>
+                <p>Stylish Fabulous Men Sh..</p>
+                <p><b>&#8377 388</b> onwards</p>
+                <div class="delivery-div-inside-product">Free Delivery</div>
+                <div class="rating-inside-product">
+                    <span>3.7 <i class="fa-solid fa-star"></i></span><span>1540 Reviews</span>
+                </div>
+            </div>
+            <!-- third product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/225216823/yu0mg_400.webp" />
+                </div>
+                <p>Men Formal Shirt</p>
+                <p><b>&#8377 492</b> onwards</p>
+                <div class="delivery-div-inside-product">Free Delivery</div>
+                <div class="rating-inside-product">
+                    <span>3.6 <i class="fa-solid fa-star"></i></span><span>101 Reviews</span>
+                </div>
+            </div>
+            <!-- fourth product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/295210024/bapxk_400.webp" />
+                </div>
+                <p>Classy Fashionista Men..</p>
+                <p><b>&#8377 354</b> onwards</p>
+                <div class="delivery-div-inside-product">Free Delivery</div>
+                <div class="rating-inside-product">
+                    <span>3.3 <i class="fa-solid fa-star"></i></span><span>Supplier</span>
+                </div>
+            </div>
+            <!-- fifth product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/290410083/4roct_400.webp" />
+                </div>
+                <p>Pretty Partywear Men Ts..</p>
+                <p><b>&#8377 194</b> onwards</p>
+                <div class="delivery-div-inside-product"> Free Delivery</div>
+                <div class="rating-inside-product">
+                    <span>3.6 <i class="fa-solid fa-star"></i></span><span>49 Reviews</span>
+                </div>
+            </div>
+            <!-- sixth product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/243073705/m9u7q_400.webp" />
+                </div>
+                <p>Trendy designer Men Sh..</p>
+                <p><b>&#8377 253</b><del>&#8377 279</del><span> 9% off</span></p>
+                <div class="delivery-div-inside-product">Free Delivery</div>
+                <div class="rating-inside-product">
+                    <span>3.6 <i class="fa-solid fa-star"></i></span><span>767 Reviews</span>
+                </div>
+            </div>
+            <!-- seventh product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/216877945/vq3jb_400.webp" />
+                </div>
+                <p>Stylish Elegant Men Tshi...</p>
+                <p><b>&#8377 259</b> onwards</p>
+                <div class="delivery-div-inside-product">Free Delivery</div>
+                <div class="rating-inside-product">
+                    <span>3.6 <i class="fa-solid fa-star"></i></span><span>246 Reviews</span>
+                </div>
+            </div>
+            <!-- ninth product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/140598388/ailwc_400.webp" />
+                </div>
+                <p>Trendy Ravishing Men Ts..</p>
+                <p><b>&#8377 191</b> onwards</p>
+                <div class="delivery-div-inside-product">Free Delivery</div>
+                <div class="rating-inside-product">
+                    <span>3.8 <i class="fa-solid fa-star"></i></span><span>34626 Reviews</span>
+                </div>
+            </div>
+            <!-- tenth product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/132715677/amkqb_400.webp" />
+                </div>
+                <p>Vellical Men Shirts</p>
+                <p><b>&#8377 286</b> onwards</p>
+                <div class="delivery-div-inside-product">Free Delivery</div>
+                <div class="rating-inside-product">
+                    <span>3.8 <i class="fa-solid fa-star"></i></span><span>64288 Reviews</span>
+                </div>
+            </div>
+            <!-- eleventh product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/280634107/mfdok_400.webp" />
+                </div>
+                <p>Fancy Modern Men Tshirts</p>
+                <p><b>&#8377 199</b> onwards</p>
+                <div class="delivery-div-inside-product">Delivery &#8377 71</div>
+                <div class="rating-inside-product">
+                    <span>3.7 <i class="fa-solid fa-star"></i></span><span>179 Reviews</span>
+                </div>
+            </div>
+            <!-- tweleveth product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/200809120/yqwba_400.webp" />
+                </div>
+                <p>Classy Partywear Men t..</p>
+                <p><b>&#8377 92</b> onwards</p>
+                <div class="delivery-div-inside-product"> Delivery &#8377 62</div>
+                <div class="rating-inside-product">
+                    <span>3.6 <i class="fa-solid fa-star"></i></span><span>3162 Reviews</span>
+                </div>
+            </div>
+            <!-- thirteenth product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/232907367/gtqs4_400.webp"/>
+                </div>
+                <p>Urbane Graceful Men Ts...</p>
+                <p><b>&#8377 340</b> onwards</p>
+                <div class="delivery-div-inside-product">Free Delivery</div>
+                <div class="rating-inside-product">
+                    <span>3.8 <i class="fa-solid fa-star"></i></span><span>1797 Reviews</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="more-about">
+        <div id="more-about-heading">
+            <p>More About Men Top Wear</p><select></select>
+        </div>
+        <div id="more-about-discreption">
+            <p>Men’s top wears are becoming the most popular attire all over the world, not only among boys and men but
+                also among kids alike. The fashion industry has introduced a wide variety of men’s top wears like long
+                t-shirts, t-shirts, shirts, partywear shirts, etc that can be styled for any occasion at any place.</br>
+                <span>Explore Our Wide Range Of Topwear For Men Online At Affordable Prices</span></br>
+                Men’s top wears are very comfortable to carry on a daily wear basis and can be turned to partywear
+                conveniently. Men tops are always known for bringing out the best in men, be it a classic or glamourous.
+                Topwear for men are ready-to-wear which makes it easy for you to get ready in no time.
+            </p>
+            </br>
+            <p><span>Always Look Super Stylish And Dapper With Men Top Wear</span></br>
+                Men have always been blessed with less choices when it comes to their clothing. With limited options on
+                what to wear, they ought to get less confused and spend less time getting ready. Here is an ultimate
+                guide for all things men top wear. From the different types of topwears for men and how to style them
+                with appropriate bottom wear, you will get to know everything in this comprehensive guide. Shop online
+                from a huge range of amazing top wear for men at extremely affordable prices that you will not be able
+                to find anywhere.</br>
+                <span>Latest And Different Types Of Top Wear For Men</span></br>
+                T-Shirts As Top Wear For Men - T-Shirts have been around for more than 100 years and have a very
+                interesting yet cliche history. Just like so many things, t-shirts were first introduced in the armed
+                forces by the US Navy when they introduced it as an undershirt. It took a few movies and actors to bring
+                this piece of outfit to the forefront and thus began the legacy of t-shirts. Soon t-shirts began
+                flooding the market and taking the fashion game by storm.</br>
+                Sweatshirts As Top Wear For Men - As much as it is super cozy and super easy to slip in, the humble
+                hoodie is now making fashion headlines for the casual yet ready to be on the go vibe it gives out. Given
+                the fact that they are quite trending and also a highly reasonable clothing material to have, the
+                fashion world is now flooded with hoodies and sweatshirts. Although, this is great because more options
+                is always fun, right? But at the same time, this could also mean confusion in terms of how to make your
+                sweatshirt look stand out.</br>
+                Shirts As Top Wear For Men - Shirts make for one of the best top wear items for men. If you’re someone
+                who goes to office, then this is one of those constant men top wear item that you just cannot seem to
+                get enough of. Apart from formal shirts, top wear for men also include another casual and trendy shirt -
+                the Hawaiian shirts. Whether you are looking for formal shirts for your daily office wear or those cool,
+                oversized Hawaiian shirts, Meesho offers a huge range of shirts in all fabrics, colors, sizes, prints,
+                and designs.</br>
+                Sweaters As Top Wear For Men - When the winter season arrives, it's time to upgrade your wardrobe. Let
+                go of your sleeveless top wear for men and embrace comfort and style with cozy sweaters. Who wouldn't
+                want to wear a snuggly cozy sweater with a cup of coffee on a foggy winter day? With winter season
+                coming, deck up with new designs of jackets, coats, and a classic sweater, as they make for the best
+                winter top wear for men.</br>
+                Tank Tops As Top Wear For Men - Commonly known as a tank top, a sleeveless men’s top wear is usually
+                characterized by a slightly deeper neckline and straps varying in sizes. The size of the straps can be
+                very thin or cover the entire shoulder, it depends on your specification. A tank top for men is best
+                suited on muscular men as they can show of their assets in it.
+            </p></br>
+            <p><span>Styling Top Wear For Men According To Different Occasions</span></br>    
+                <span>Men Top Wear For A Winter Casual Look</span></br>
+                Wearing a hoodie with a denim jacket on top, is a brilliant way of layering while still looking cool and
+                casual. This style is not just on its way of making it to the trending list, we highly recommend it too,
+                especially now that winters are approaching us. It’s time to discard the old tricks of wearing just
+                sweaters and coat to keep yourself warm, and jazz it up with a hoodie and denim! Although most colors
+                can complement this look, we just love the white under the denim look. It never goes out of trend, does
+                it? A skinny jeans with this look will just help you take it a notch up higher.
+            </p>
+        </div>
+    </div>
+    <footer>
+        <div id="footer-inner-div">
+            <div id="shop-non-stop">
+                <div>
+                    <p>Shop Non-Stop on Meesho</p>
+                </div>
+                <div>
+                    <p>Trusted more than 1 crore Indians</p>
+                    <p><span>Cash on Delevery</span> | <span>Free Delivery</span></p>
+                </div>
+                <div>
+                    <div><img src="https://images.meesho.com/images/pow/playstore-icon-big_400.webp" /></div>
+                    <div><img src="https://images.meesho.com/images/pow/appstore-icon-big_400.webp" /></div>
+                </div>
+            </div>
+            <div id="careers-seller-hall">
+                <ul>
+                    <li>Careers</li>
+                    <li>Become a supplier</li>
+                    <li>Hall of fame</li>
+                </ul>
+            </div>
+            <div id="legal-blog-return">
+                <ul>
+                    <li>Legal and Policies</li>
+                    <li>Meesho Tech Blog</li>
+                    <li>Notice and Returns</li>
+                </ul>
+            </div>
+            <div id="reach-out">
+                <div>
+                    <p>Reach out to us</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+            <div id="contact-us">
+                <div>
+                    <p>Contact us</p>
+                </div>
+                <div>
+                    <p>
+                        Fashnear Technologies Private Limited,<br />
+                        CIN: U74900KA2015PTC082263 <br />
+                        06-105-B, 06-102, (138 Wu) Vaishnavi Signature, No. 78/9, Outer Ring Road, Bellandur, Varthur
+                        Hobli, Bengaluru-560103, Karnataka, India <br />
+                        E-mail address: query@meesho.com <br />
+                        © 2015-2022 Meesho.com
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
