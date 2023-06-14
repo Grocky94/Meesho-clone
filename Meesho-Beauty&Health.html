@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8624324425.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meesho-Beauty&Health</title>
+    <link rel="stylesheet" href="style-Beauty&Health.css">
+    </link>
+</head>
+
+<body>
+    <nav>
+        <div id="inner-nav">
+            <div id="logo">
+                <a href="Meesho-home.html"><img
+                    src="data:image/png;base64,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" /></a>
+            </div>
+            <div id="search">
+                <div id="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input placeholder="Try Saree,Kurti or Search by Product Code" />
+                </div>
+            </div>
+            <div id="nav-right-side">
+                <div id="download">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <span>Download App</span>
+                </div>
+                <div id="supplier">
+                    <span>Become a Supplier</span>
+                </div>
+                <div id="profile-cart">
+                    <span>
+                        <a href="meesho-login.html"><i class="fa-regular fa-user"></i>
+                            <span>Profile</span></a>
+                    </span>
+                    <span>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span>Cart</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="second-nav">
+        <div id="inner-second-nav">
+            <div class="second-nav-list"><a href="meesho-women-ethenic.html">Women Ethnic</a></div>
+            <div class="second-nav-list"><a href="meesho-women-western.html">Women Western</a></div>
+            <div class="second-nav-list"><a href="meesho-MenTopWear.html">Men</a></div>
+            <div class="second-nav-list">Kids</div>
+            <div class="second-nav-list"><a href="Meesho-Home&Kitchen.html">Home & Kitchen</a></div>
+            <div class="second-nav-list">Beauty & Health</div>
+            <div class="second-nav-list">Jewellery & Accessories</div>
+            <div class="second-nav-list">Bags & Footwear</div>
+            <div class="second-nav-list">Electronics</div>
+        </div>
+    </div>
+    <div id="product-header">
+        <p>Face Makeup</p>
+        <p>showing 1-12 products</p>
+    </div>
+    <div id="product-screen">
+        <div id="left-side-product-screen">
+            <div id="sort">
+                <p>Sort by:<span>Relevance</span></p><select></select>
+            </div>
+            <div id="filter-div">
+                <div class="inner-filter-div">
+                    <p>FILTERS</p>
+                    <p>1000+ products</p>
+                </div>
+                <div class="inner-filter-div no-border">
+                    <p>Category</p>
+                    <select></select>
+                </div>
+                <div id="categories-input-list">
+                    <input type="checkbox" /><label>Face Makeup Combo</label></br>
+                </div>
+                <div class="inner-filter-div no-border">
+                    <p>Gender</p>
+                    <select></select>
+                </div>
+                <div id="categories-input-list">
+                    <input type="button" value="Girls" /><br>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Fabric</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Color</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Price</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Discount</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Rating</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Size</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Combo</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Material</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Print Or Pattern Type</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Ornamentation</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Bottom Pattern Type</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Surface Style</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Fit/ Shape</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Top Type</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Warranty Period</p>
+                    <select></select>
+                </div>
+                <div class="inner-filter-div">
+                    <p>Type</p>
+                    <select></select>
+                </div>
+            </div>
+        </div>
+        <div id="right-side-product-screen">
+            <!-- product one  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/193532870/cykqc_400.webp" />
+                </div>
+                <p>Tinkle Stylish Girls Frock..</p>
+                <p><b>&#8377 179</b> onwards</p>
+                <div class="delivery-div-inside-product">Free Delivery </div>
+                <div class="rating-inside-product">
+                    <span>3.8 <i class="fa-solid fa-star"></i></span><span>351 Reviews</span>
+                </div>
+            </div>
+            <!-- second product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/91673448/qroou_400.webp" />
+                </div>
+                <p>Agile Stylus Girls Frock..</p>
+                <p><b>&#8377 180</b> onwards</p>
+                <div class="delivery-div-inside-product">Free Delivery</div>
+                <div class="rating-inside-product">
+                    <span>3.9 <i class="fa-solid fa-star"></i></span><span>48030 Reviews</span>
+                </div>
+            </div>
+            <!-- third product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/175992228/82ewd_400.webp" />
+                </div>
+                <p>Princess Classy Girls Fro..</p>
+                <p><b>&#8377 192</b> onwards</p>
+                <div class="delivery-div-inside-product">Free Delivery</div>
+                <div class="rating-inside-product">
+                    <span>3.8 <i class="fa-solid fa-star"></i></span><span>15493 Reviews</span>
+                </div>
+            </div>
+            <!-- fourth product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/197089929/ep2vo_400.webp" />
+                </div>
+                <p>Agile Stylish Girls Frocks</p>
+                <p><b>&#8377 179</b> onwards</p>
+                <div class="delivery-div-inside-product">Free Delivery</div>
+                <div class="rating-inside-product">
+                    <span>3.9 <i class="fa-solid fa-star"></i></span><span>891 Reviews</span>
+                </div>
+            </div>
+            <!-- fifth product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/126711895/h7nhp_400.webp" />
+                </div>
+                <p>Flawsome Stylus Girls Fr..</p>
+                <p><b>&#8377 170</b> onwards</p>
+                <div class="delivery-div-inside-product">Free Delivery</div>
+                <div class="rating-inside-product">
+                    <span>3.8 <i class="fa-solid fa-star"></i></span><span>25144 Reviews</span>
+                </div>
+            </div>
+            <!-- sixth product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/277918274/gy56c_400.webp" />
+                </div>
+                <p>Flawsome Comfy Girls Fr..</p>
+                <p><b>&#8377 251</b> onwards</p>
+                <div class="delivery-div-inside-product">Free Delivery</div>
+                <div class="rating-inside-product">
+                    <span>3.9 <i class="fa-solid fa-star"></i></span><span>359 Reviews</span>
+                </div>
+            </div>
+            <!-- seventh product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/211928289/1xjmv_400.webp" />
+                </div>
+                <p>Flawsome Comfy Girls Fr..</p>
+                <p><b>&#8377 208</b> onwards</p>
+                <div class="delivery-div-inside-product">Free Delivery</div>
+                <div class="rating-inside-product">
+                    <span>4.0 <i class="fa-solid fa-star"></i></span><span>1779 Reviews</span>
+                </div>
+            </div>
+            <!-- ninth product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/98826127/1jiil_400.webp" />
+                </div>
+                <p>Modern Funky Girls Froc...</p>
+                <p><b>&#8377 395</b> onwards</p>
+                <div class="delivery-div-inside-product">Free Delivery</div>
+                <div class="rating-inside-product">
+                    <span>3.9 <i class="fa-solid fa-star"></i></span><span>14549 Reviews</span>
+                </div>
+            </div>
+            <!-- tenth product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/244814723/sfbut_400.webp" />
+                </div>
+                <p>Pretty Stylus Girls Frocks...</p>
+                <p><b>&#8377 192</b> onwards</p>
+                <div class="delivery-div-inside-product">Free Delivery</div>
+                <div class="rating-inside-product">
+                    <span>3.9 <i class="fa-solid fa-star"></i></span><span>1166 Reviews</span>
+                </div>
+            </div>
+            <!-- eleventh product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/282909314/ffbit_400.webp" />
+                </div>
+                <p>Agile Funky Girls Frocks..</p>
+                <p><b>&#8377 220</b> onwards</p>
+                <div class="delivery-div-inside-product">Free Delivery</div>
+                <div class="rating-inside-product">
+                    <span>4.2 <i class="fa-solid fa-star"></i></span><span>44 Reviews</span>
+                </div>
+            </div>
+            <!-- tweleveth product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/284560289/wqw2f_400.webp" />
+                </div>
+                <p>Flawsome Comfy Girls Fr..</p>
+                <p><b>&#8377 162</b> onwards</p>
+                <div class="delivery-div-inside-product">Free Delivery</div>
+                <div class="rating-inside-product">
+                    <span>4.1 <i class="fa-solid fa-star"></i></span><span>169 Reviews</span>
+                </div>
+            </div>
+            <!-- thirteenth product  -->
+            <div class="product-div">
+                <div class="product-image">
+                    <img src="https://images.meesho.com/images/products/266346664/kbqpo_400.webp" />
+                </div>
+                <p>Flawsome Classy Girls Fr..</p>
+                <p><b>&#8377 260</b> onwards</p>
+                <div class="delivery-div-inside-product">Free Delivery</div>
+                <div class="rating-inside-product">
+                    <span>3.9 <i class="fa-solid fa-star"></i></span><span>601 Reviews</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="more-about">
+        <div id="more-about-heading">
+            <p>More About Kids Dresses</p><select></select>
+        </div>
+        <div id="more-about-discreption">
+            <p>Pampering your kids by dressing them up in stylish and cute dresses is every parent鈥檚 dream. It is now
+                easier than ever before to discover unique designs in kid鈥檚 dresses online. From strappy dresses to
+                colorful pinafores, you will find so many variations in designs and patterns and you will want them all
+                for your little one.<br>
+                <span>Must-Have Latest Kid鈥檚 Dresses To Check Out</span><br>
+                Kidswear has come a long way in the last few years. Give your kids a fashion makeover with our huge
+                selection of dresses and accessories. Play with colors and patterns to create unique looks in an
+                instant.
+            </p>
+            </br>
+            <p><span>All About The Latest Kids’ Dress Designs For Your Baby Girl</span></br>
+                These days, people put a whole lot of effort into choosing the right, stylish outfits for their kids. In
+                fact, designers often launch separate kidswear collections every season for kids who want to start their
+                fashion game early. Just like you, your baby girl also needs to have a separate collection of casual and
+                occasional wear outfits. Right from the colors to the designs to the fits, everything needs to be
+                approved by your kid of course. But before you select her brand new wardrobe, you need to know about the
+                latest trends that are ruling kids’ fashion these days. So take a look at the following list to find out
+                all you need to know about dressing up your kid the right way.</br>
+                <span>Printed A-Line Kid’s Dresses</span><br>
+                Ever since kids’ fashion trends began to be taken seriously, there were so many innovative designs and
+                cuts entering the market every season. But one classic dress design managed to retain its popularity
+                throughout a;l the new changes. The simple A-line dress can be worn by kids, teenagers, and older women,
+                making it one of the most versatile dress designs in the market. Pair the dress with cute ballerina
+                shoes and frilly socks for the most adorable look for your little princess. Add a printed hairband or
+                hair clips in colorful patterns to add an extra dose of cuteness.</br>
+                <span>Pastel Pinafore Kids Dresses</span><br>
+                The evergreen outfit for Indian girls for the summer is the adorable pinafore dress. These are usually
+                made of light cotton fabric and come in cute prints and fun colors. However, there is no match for
+                pastel-colored pinafore dresses. Go for pale pinks, light blues, and lemon yellows this season. The
+                dresses usually come with pockets where your little girl can put her precious belongings without any
+                fear of losing them. Your girl will definitely stay comfortable and look trendy in these lovely dresses.
+                </br>
+                <span>Layered Casual Kids’ Dresses</span></br>
+                Another popular kids’ dress design is a layered dress. This one is a stunning and smart outfit that your
+                kid can wear at home or to a party. For a fancy look, pick a design with bows and fringes. But even the
+                basic layered dress which has two more colorful fabrics overlapping each other is great for a casual
+                look. To dress it up a little, you can add funky accessories and footwear that go well with the dress. A
+                floral print design adorned with colorful flowers in bright and bubbly colors would look adorable on
+                your little princess.<br>
+                <span>Kids’ Bubble Dresses</span><br>
+                Looking for a unique and modern dress for your baby girl’s birthday? We have just what you need. Get a
+                cute little bubble dress. The name refers to the hem of this dress design which has a fluffy bubble-like
+                look. These dresses usually come with pockets that will help your kid keep her tiny belongings safe. Go
+                for bright colors and cute prints to make her stand out even more. A bright pink bubble dress with
+                strappy shoes and a small sling bag is the perfect party look.<br>
+                <span>Frilled Kids’ Dresses</span><br>
+                This dress design has been a kids’ favorite for many years now and there is no way this is getting old
+                anytime soon. The bodice of this dress design is usually made of glossy fabrics like satin and the lower
+                part is made of net. Soft net ruffles and frills add a funky look to the dress. Some designs come with a
+                belt at the waist with can be tied up like a bow to add a fun vibe. Your child will look just like her
+                favorite Disney princess in one of these dresses.<br>
+                <span>Popular Patterns And Fabrics For Kids’ Dresses</span><br>
+                It may be easy to find the right type of dress for your girl. But there is a lot more to it than that.
+                You need to make sure that the pattern appeals to your kid and the fabric is comfortable to wear.
+                Cotton, Linen, Muslin, and fleece along with some soft blended fabrics are the best in terms of
+                durability and comfort. For party wear dresses, net and velvet are also good options. However, when it
+                comes to fabric its best to stick to what your child seems to be the most comfortable in. As for
+                patterns, you can get as creative as you want with this aspect. In fact, you should go for patterns that
+                your child likes and if possible, let them make the final choice. Floral prints, animal motifs as well
+                as TV and movie-inspired prints have been popular for quite some time. You can also get some traditional
+                patterns and prints, but do make sure that the colors are bright and vibrant. Dull colors rarely appeal
+                to little kids.<br>
+                <span>How To Style Kids’ Dresses Perfectly?</span><br>
+                Accessories: You simply cannot ignore accessories when choosing the right outfit for your kid. Colorful
+                headbands, clips, rubber bands that match the color and theme of the outfit are a must. Next comes
+                jewelry! Now, kids’ jewelry designs are usually limited to safe, unbreakable materials and cute, funky
+                designs. Get some bracelets, watches, stud earrings, and anklets for your girl’s accessory collection.<br>
+                Footwear: You will find just as much variety in kids’ footwear as that for grown-ups. From cute
+                ballerinas to funky flip-flops and even combat boots, you have all the options you need. While matching
+                your kids’ footwear to the outfit is important, it is comfort that matters the most when it comes to
+                footwear. So choose comfy shoes that your kid prefers. As for designs, there are so many to pick from. A
+                pair of printed sneakers, embellished bellies, ankle boots, and of course slip-on shoes must be added to
+                your collection.<br>
+                Hairstyles: Pigtails and plaits have had their day! Modern kids need to be on par with current hair
+                trends. You can go for a simple hairstyle like a high pony if your girl has long or medium length hair.
+                Add funky rubber bands and clips to make her stand out. When you plan on leaving her hair down, add a
+                nice colorful hairband to enhance her cuteness to the next level.<br>
+                <span>Buy The Latest Kids’ Dresses Online At Unbelievable Prices</span><br>
+                If you are looking for beautiful dresses for your little baby girl, you are in the right place. Explore
+                our huge collection of kids’ wear including dresses, skirts, co-ord sets, and many more varieties. We
+                have options for every price range and each design comes in several beautiful colors. So revamp your
+                kids’ wardrobe with some of the latest and trendy clothes specifically designed for them.
+            </p>
+        </div>
+    </div>
+    <footer>
+        <div id="footer-inner-div">
+            <div id="shop-non-stop">
+                <div>
+                    <p>Shop Non-Stop on Meesho</p>
+                </div>
+                <div>
+                    <p>Trusted more than 1 crore Indians</p>
+                    <p><span>Cash on Delevery</span> | <span>Free Delivery</span></p>
+                </div>
+                <div>
+                    <div><img src="https://images.meesho.com/images/pow/playstore-icon-big_400.webp" /></div>
+                    <div><img src="https://images.meesho.com/images/pow/appstore-icon-big_400.webp" /></div>
+                </div>
+            </div>
+            <div id="careers-seller-hall">
+                <ul>
+                    <li>Careers</li>
+                    <li>Become a supplier</li>
+                    <li>Hall of fame</li>
+                </ul>
+            </div>
+            <div id="legal-blog-return">
+                <ul>
+                    <li>Legal and Policies</li>
+                    <li>Meesho Tech Blog</li>
+                    <li>Notice and Returns</li>
+                </ul>
+            </div>
+            <div id="reach-out">
+                <div>
+                    <p>Reach out to us</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+            <div id="contact-us">
+                <div>
+                    <p>Contact us</p>
+                </div>
+                <div>
+                    <p>
+                        Fashnear Technologies Private Limited,<br />
+                        CIN: U74900KA2015PTC082263 <br />
+                        06-105-B, 06-102, (138 Wu) Vaishnavi Signature, No. 78/9, Outer Ring Road, Bellandur, Varthur
+                        Hobli, Bengaluru-560103, Karnataka, India <br />
+                        E-mail address: query@meesho.com <br />
+                        © 2015-2022 Meesho.com
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
