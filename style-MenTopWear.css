@@ -31,7 +31,7 @@ nav {
     /* border: 1px solid black; */
 }
 
-#logo>img {
+#logo>a>img {
     height: 90%;
     width: 100%;
     object-fit: cover;
@@ -170,6 +170,9 @@ nav {
     align-items: center;
     justify-content: center;
 }
+.second-nav-list>a{
+    color: black;
+}
 
 
 #product-header {
@@ -249,12 +252,16 @@ nav {
     display: flex;
     align-items: center;
 }
+.no-border{
+    border:none;
+    outline: none;
+}
 
 #categories-input-list {
     /* height: 30vh; */
     width: 90%;
     margin: auto;
-    /* border: 1px solid black; */
+    border-bottom: 1px solid #9999ae;
     line-height: 1.5em;
     padding-top: 1%;
 }

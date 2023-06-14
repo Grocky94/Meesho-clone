@@ -31,7 +31,7 @@ nav {
     /* border: 1px solid black; */
 }
 
-#logo>img {
+#logo>a>img {
     height: 90%;
     width: 100%;
     object-fit: cover;
@@ -332,7 +332,7 @@ nav {
     height: 45vh;
     width: 100%;
     margin: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .product-image>img {
