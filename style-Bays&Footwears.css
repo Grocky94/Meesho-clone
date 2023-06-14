@@ -196,6 +196,7 @@ nav {
     /* border: 1px solid black; */
     margin: auto;
     display: flex;
+    margin-bottom: 2%;
 }
 
 #left-side-product-screen {
@@ -407,6 +408,7 @@ i {
     /* height:100vh; */
     width: 90%;
     border: 1px solid black;
+    border-radius: 2%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -418,7 +420,7 @@ i {
 #more-about-heading {
     height: 10vh;
     width: 95%;
-    border: 1px solid black;
+    border-bottom: 1px solid #9999ae;
     margin-top: 2%;
     position: relative;
     display: flex;
@@ -436,7 +438,7 @@ i {
 
 #more-about-discreption {
     width: 95%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-bottom: 2%;
     margin-top: 1%;
     line-height: 1.3em;
