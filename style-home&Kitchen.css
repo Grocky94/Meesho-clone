@@ -279,6 +279,8 @@ nav {
     padding-right: 1%;
     border-radius: 50px;
     margin-bottom: 5%;
+    border-color:#9999ae ;
+    color: #9999ae;
 } 
 
 #filter-div>div:last-child {
@@ -316,7 +318,7 @@ nav {
 }
 
 .product-div {
-    height: 65vh;
+    height: 50vh;
     width: 23%;
     border: 1px solid #9999ae;
     border-radius: 5px;
@@ -329,16 +331,16 @@ nav {
 }
 
 .product-image {
-    height: 45vh;
+    height: 30vh;
     width: 100%;
     margin: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .product-image>img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 .product-div>p:nth-child(2) {
