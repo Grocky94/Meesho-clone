@@ -178,7 +178,7 @@ nav {
 #product-parent-screen {
     /* height: 100vh; */
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 2%;
 }
 
@@ -186,7 +186,7 @@ nav {
     /* height: 100vh; */
     width: 80%;
     margin: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: space-around;
 }
@@ -250,7 +250,7 @@ nav {
 #add-to-cart {
     /* height: 20vh; */
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 10px;
     margin-top: 2%;
 }
@@ -258,7 +258,7 @@ nav {
 #child-div-add-to-cart {
     height: 10vh;
     width: 85%;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     margin-left: auto;
     margin-right: 0%;
     display: flex;
@@ -295,16 +295,49 @@ nav {
     margin-left: 2%;
 }
 
+#other-type-product {
+    /* height: 20vh; */
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 2%;
+}
+
+#inside-other-type {
+    /* height: 25vh; */
+    width: 85%;
+    margin-left: auto;
+    margin-right: 0%;
+    border-bottom:1px solid black;
+    line-height: 5vh;
+}
+#parent-div-of-other-type-product{
+    height:20vh;
+    width: 100%;
+    /* border:1px solid black; */
+    display: flex;
+    align-items: center;
+}
+#parent-div-of-other-type-product>div{
+    height:90%;
+    width:20%;
+    /* border:1px solid black; */
+    margin-left: 2%;
+}
+#parent-div-of-other-type-product>div>img{
+    height:100%;
+    width:100%;
+}
+
 #right-side-child {
     /* height: 100vh; */
     width: 48%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 #product-name {
     height: 25vh;
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid #9999ae;
     border-radius: 10px;
     line-height: 5vh;
 }
@@ -367,7 +400,7 @@ nav {
 #product-size-div {
     height: 20vh;
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid #9999ae;
     margin-top: 2%;
     line-height: 8vh;
     border-radius: 10px;
@@ -390,7 +423,7 @@ nav {
     height: 50%;
     padding: 2%;
     border-radius: 50px;
-    border: 1px solid black;
+    border: 1px solid #9999ae;
     display: flex;
     align-items: center;
     margin-left: 2%;
@@ -400,7 +433,7 @@ nav {
 #product-details {
     height: 40vh;
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid #9999ae;
     border-radius: 10px;
     margin-top: 2%;
     word-wrap: wrap;
@@ -420,14 +453,14 @@ nav {
 #product-details>p:nth-child(3) {
     line-height: 2vh;
     width: fit-content;
-    border-bottom: 1px dashed black;
+    border-bottom: 1px dashed #9999ae;
     margin-top: 2%;
 }
 
 #sold-by {
     /* height: 25vh; */
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid #9999ae;
     border-radius: 10px;
     margin-top: 2%;
     /* line-height: 8vh; */
@@ -482,6 +515,7 @@ nav {
     border-radius: 5px;
     border-color: #9f2392;
     color: #9f2392;
+    font-size: 1.5em;
 }
 
 #rating-follow-product-parent {
@@ -531,7 +565,7 @@ nav {
 #secondlast-container {
     /* height: 80vh; */
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid #9999ae;
     margin-top: 2%;
     border-radius: 10px;
 
@@ -540,7 +574,7 @@ nav {
 #product-rating-reviews {
     /* height:45vh; */
     width: 98%;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #9999ae;
     margin: auto;
 }
 
@@ -658,7 +692,7 @@ nav {
 .cus-rev {
     /* height:20vh; */
     width: 98%;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #9999ae;
     margin: auto;
     margin-top: 2%;
 }
@@ -795,14 +829,14 @@ p {
 }
 
 #product-header>p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: 200;
 }
 
 #product-screen {
     /* height: 100vh; */
     width: 90%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: auto;
     display: flex;
 }
@@ -810,7 +844,7 @@ p {
 #inside-product-screen {
     /* height: 100vh; */
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-flow: row wrap;
 
