@@ -109,7 +109,7 @@ nav {
 #supplier {
     height: 80%;
     margin-top: 1%;
-    width: 35%;
+    width: 30%;
     border-right: 1px solid #9999ae;
     display: flex;
     align-items: center;
@@ -120,7 +120,7 @@ nav {
     align-items: center;
     /* border: 1px solid black; */
     height: 100%;
-    width: 30%
+    width: 35%
 }
 
 #profile-cart>span{
@@ -132,7 +132,7 @@ nav {
     height: 100%;
     /* border: 1px solid black; */
 }
-#profile-cart>span:nth-child(1)>a{
+#profile-cart>span>a{
     display: contents;
     text-decoration: none;
     color: black;

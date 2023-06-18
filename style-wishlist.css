@@ -109,7 +109,7 @@ nav {
 #supplier {
     height: 80%;
     margin-top: 1%;
-    width: 30%;
+    width: 35%;
     border-right: 1px solid #9999ae;
     display: flex;
     align-items: center;
@@ -120,7 +120,7 @@ nav {
     align-items: center;
     /* border: 1px solid black; */
     height: 100%;
-    width: 35%
+    width: 30%
 }
 
 #profile-cart>span{
@@ -178,14 +178,15 @@ nav {
     /* border: 1px solid black; */
     margin: auto;
     display: flex;
-    flex-direction: column;
-    align-items: start;
-    padding-left: 1%;
+    align-items: center;
 }
 
-#product-header>p:nth-child(1) {
-    font-size: 2em;
+#product-header>p {
+    font-size: 1.5em;
     font-weight: 200;
+}
+#product-header>span{
+    margin-left: 2%;
 }
 
 #product-screen {
@@ -194,120 +195,11 @@ nav {
     /* border: 1px solid black; */
     margin: auto;
     display: flex;
-    margin-bottom: 2%;
 }
 
-#left-side-product-screen {
+#inside-product-screen {
     /* height: 100vh; */
-    width: 25%;
-    /* border: 1px solid black; */
-}
-
-#sort {
-    height: 5vh;
-    width: 95%;
-    margin: auto;
-    border: 1px solid #9999ae;
-    border-radius: 10%;
-    border-radius: 2px;
-    font-size: 1.5rem;
-    display: flex;
-    color: #9999ae;
-    margin-top: 5px;
-}
-
-#sort>p {
-    margin-left: 5%;
-}
-
-#sort>p>span {
-    color: black;
-    margin-left: 5px;
-}
-
-#sort>select {
-    margin-left: auto;
-    margin-right: 5%;
-    border: none;
-    outline: none;
-}
-
-#filter-div {
-    /* height: 50vh; */
-    width: 95%;
-    border: 1px solid #9999ae;
-    border-radius: 2px;
-    margin: auto;
-    margin-top: 5%;
-}
-
-
-.inner-filter-div {
-    height: 8vh;
-    width: 85%;
-    margin: auto;
-    border-bottom: 1px solid #9999ae;
-    display: flex;
-    align-items: center;
-}
-.no-border{
-    border:none;
-    outline: none;
-}
-
-#categories-input-list {
-    /* height: 30vh; */
-    width: 90%;
-    margin: auto;
-    border-bottom: 1px solid #9999ae;
-    line-height: 1.5em;
-    padding-top: 1%;
-}
-#categories-input-list>input,label{
-    font-size: 1.1em;
-    margin-left: 2%;
-}
-#categories-input-list>input[type=checkbox]{
-    width: 1.5em;
-    height:1.5em;
-}
-#categories-input-list>input[type=button]{
-    height:auto;
-    width: auto;
-    padding-left: 1%;
-    padding-right: 1%;
-    border-radius: 50px;
-    margin-bottom: 5%;
-} 
-
-#filter-div>div:last-child {
-    border: none;
-}
-
-.inner-filter-div>select {
-    margin-left: auto;
-    margin-right: 0%;
-    border: none;
-    outline: none;
-}
-
-#filter-div>div:nth-child(1) {
-    display: block;
-}
-
-#filter-div>div:nth-child(1)>p {
-    margin-top: 4%;
-    font-size: 0.9em;
-    letter-spacing: 1px;
-}
-
-#filter-div>div:nth-child(1)>p:nth-child(2) {
-    color: #9999ae;
-}
-
-#right-side-product-screen {
-    /* height: 100vh; */
-    width: 75%;
+    width: 100%;
     /* border: 1px solid black; */
     display: flex;
     flex-flow: row wrap;
@@ -315,8 +207,8 @@ nav {
 }
 
 .product-div {
-    height: 50vh;
-    width: 23%;
+    /* height: 50vh; */
+    width: 18%;
     border: 1px solid #9999ae;
     border-radius: 5px;
     overflow: hidden;
@@ -337,13 +229,11 @@ nav {
 .product-image>img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
 }
 
 .product-div>p:nth-child(2) {
     font-size: 1.0em;
     color: #9999ae;
-
 }
 
 .product-div>p:nth-child(3)>del {
@@ -401,54 +291,21 @@ i {
     margin-left: 2px;
     font-size: 0.9em;
 }
-
-#more-about {
-    /* height:100vh; */
-    width: 90%;
-    border: 1px solid black;
-    border-radius: 2%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 1%;
-    padding-top: 1%;
-}
-
-#more-about-heading {
-    height: 10vh;
-    width: 95%;
-    border-bottom: 1px solid #9999ae;
+#continue {
+    height: 6vh;
+    width: 100%;
     margin-top: 2%;
-    position: relative;
-    display: flex;
-    align-items: center;
-    font-size: 1.5em;
-}
-
-#more-about-heading>select {
-    position: absolute;
-    right: 0%;
-    border: none;
+    background-color: #9f2089;
+    font-size: 1.1em;
+    color: white;
     outline: none;
-
+    border: 1px solid #9f2089;
+    border-radius: 5px;
+    margin-bottom: 5%;
 }
-
-#more-about-discreption {
-    width: 95%;
-    /* border: 1px solid black; */
-    margin-bottom: 2%;
-    margin-top: 1%;
-    line-height: 1.3em;
-}
-
-#more-about-discreption>p>span {
-    font-size: 1.5rem;
-    font-weight: 500;
-}
-
 
 footer {
+    margin-top: 5%;
     height: 50vh;
     width: 100%;
     /* border: 1px solid black; */

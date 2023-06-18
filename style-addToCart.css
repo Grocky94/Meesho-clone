@@ -30,7 +30,7 @@ nav {
     /* border: 1px solid black; */
 }
 
-#logo>img {
+#logo>a>img {
     height: 100%;
     width: 80%;
     margin: auto;
