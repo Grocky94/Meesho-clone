@@ -245,13 +245,7 @@ nav {
     height: 100%;
 }
 
-#add-to-cart {
-    /* height: 20vh; */
-    width: 100%;
-    /* border: 1px solid black; */
-    border-radius: 10px;
-    margin-top: 2%;
-}
+add-to-cart
 
 #child-div-add-to-cart {
     height: 10vh;
